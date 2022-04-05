@@ -1,0 +1,67 @@
+$white: hsl(0, 0%, 100%);
+$lightgray:hsl(212, 45%, 89%);
+$grayishblue:hsl(220, 15%, 55%);
+$darkblue:hsl(218, 44%, 22%);
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Raleway:wght@800&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 10vh 0;
+    background-color: $lightgray;
+
+    /* Card */
+    .card {
+        max-width: 320px;
+        height: 500px;
+        margin: auto;
+        border-radius: 20px;
+        background-color: $white;
+
+        /* QR-Code */
+        .qr-pos {
+            img {
+                width: 290px;
+                height: auto;
+                margin-top: 1rem;
+                border-radius: 20px;
+            }
+        }
+
+        .card-content {
+            margin: 1.2em;
+
+            h2 {
+                color: $darkblue;
+                font-weight: 700;
+            }
+
+            p {
+                color: $grayishblue;
+            }
+        }
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 20px;
+
+        .attribution {
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    }
+}
+
+@media screen and (min-width:375px) {
+    .attribution {
+        font-size: 0.5em;
+    }
+}

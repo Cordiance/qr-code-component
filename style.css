@@ -1,3 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Raleway:wght@800&display=swap");
 body {
-    background-color:#D5E1EF;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 10vh 0;
+  background-color: #d6e2f0;
+  /* Card */
+  /* Footer */
 }
+
+body .card {
+  max-width: 320px;
+  height: 500px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: white;
+  /* QR-Code */
+}
+
+body .card .qr-pos img {
+  width: 290px;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 20px;
+}
+
+body .card .card-content {
+  margin: 1.2em;
+}
+
+body .card .card-content h2 {
+  color: #1f3251;
+  font-weight: 700;
+}
+
+body .card .card-content p {
+  color: #7b879d;
+}
+
+body footer {
+  margin-top: 20px;
+}
+
+body footer .attribution {
+  font-size: 1rem;
+  text-align: center;
+}
+
+body footer .attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (min-width: 375px) {
+  .attribution {
+    font-size: 0.5em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
