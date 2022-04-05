@@ -15,20 +15,18 @@ body {
 
     /* Card */
     .card {
-        max-width: 320px;
+        width: 320px;
         height: 500px;
         margin: auto;
         border-radius: 20px;
         background-color: $white;
 
         /* QR-Code */
-        .qr-pos {
-            img {
-                width: 290px;
-                height: auto;
-                margin-top: 1rem;
-                border-radius: 20px;
-            }
+        .qr-pos img {
+            width: 18rem;
+            height: auto;
+            margin-top: 1rem;
+            border-radius: 20px;
         }
 
         .card-content {
@@ -60,7 +58,8 @@ body {
     }
 }
 
-@media screen and (min-width:375px) {
+@media only screen and (min-width:375px) {
+
     .attribution {
         font-size: 0.5em;
     }

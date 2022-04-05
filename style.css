@@ -11,7 +11,7 @@ body {
 }
 
 body .card {
-  max-width: 320px;
+  width: 320px;
   height: 500px;
   margin: auto;
   border-radius: 20px;
@@ -20,7 +20,7 @@ body .card {
 }
 
 body .card .qr-pos img {
-  width: 290px;
+  width: 18rem;
   height: auto;
   margin-top: 1rem;
   border-radius: 20px;
@@ -52,7 +52,7 @@ body footer .attribution a {
   color: #3e52a3;
 }
 
-@media screen and (min-width: 375px) {
+@media only screen and (min-width: 375px) {
   .attribution {
     font-size: 0.5em;
   }
