@@ -16,6 +16,8 @@ body .card {
   margin: auto;
   border-radius: 20px;
   background-color: white;
+  -webkit-box-shadow: 0 22px 19px -8px rgba(114, 128, 167, 0.2);
+          box-shadow: 0 22px 19px -8px rgba(114, 128, 167, 0.2);
   /* QR-Code */
 }
 

@@ -20,6 +20,7 @@ body {
         margin: auto;
         border-radius: 20px;
         background-color: $white;
+        box-shadow: 0 22px 19px -8px hsla(224, 23%, 55%, 0.2);
 
         /* QR-Code */
         .qr-pos img {
